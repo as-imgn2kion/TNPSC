@@ -1,78 +1,81 @@
 Question,Opt1,Opt2,Opt3,Opt4,CorrectAnswer
-Which Greek word does 'History' come from?,Istoria,Historia,Chronos,Logos,Istoria
-What is the literal meaning of the Greek word 'Istoria'?,Learning by enquiry,Study of kings,Ancient records,Written evidence,Learning by enquiry
-What does the abbreviation BC or BCE stand for?,Before Common Era,Before Current Event,Basic Christian Era,Before Christ Era,Before Common Era
-How does the BCE timeline count?,Backward,Forward,Randomly,It does not count,Backward
-What does AD or CE stand for?,Common Era,Current Event,After Death,Ancient Date,Common Era
-How does the CE timeline count?,Forward,Backward,Randomly,By decades,Forward
-The study of coins is known as what?,Numismatics,Epigraphy,Anthropology,Geology,Numismatics
-The study of inscriptions is called what?,Epigraphy,Numismatics,Calligraphy,Palaeography,Epigraphy
-Which category of sources includes coins and inscriptions?,Archaeological,Literary,Secular,Religious,Archaeological
-Where can historical inscriptions be found according to your notes?,Rocks and Temple walls,Only in books,Only on metal pillars,Only on copper plates,Rocks and Temple walls
-Copper plates are a major source for the medieval history of which kingdoms?,Cholas and Pandyas,Cheras and Pallavas,Mughals,Marathas,Cholas and Pandyas
-Which palace is located in Madurai?,Thirumalai Nayakkar,Thanjavur Palace,Uraiyur Palace,Vellore Palace,Thirumalai Nayakkar
-The Vellore Fort is a historical monument in which state?,Tamil Nadu,Kerala,Karnataka,Andhra Pradesh,Tamil Nadu
-In which state is the Sanchi Stupa located?,Madhya Pradesh,Tamil Nadu,Uttar Pradesh,Arunachal Pradesh,Madhya Pradesh
-The Tabhang monastery is located in which state?,Arunachal Pradesh,Sikkim,Himachal Pradesh,Ladakh,Arunachal Pradesh
-Which of these is NOT listed as an archaeological artefact in your notes?,Books,Potteries,Toys,Ornaments,Books
-Which of the following is an example of Secular literature?,Foreign traveler accounts,Ramayana,Devaram,Mahabharata,Foreign traveler accounts
-Folk songs and Ballads fall under which literary category?,Secular,Religious,Archaeological,Devotional,Secular
-Which of these are religious epics?,Ramayana and Mahabharata,Devaram,Folk songs,Foreign accounts,Ramayana and Mahabharata
-To which category do 'Devaram' and 'Thiruvasagam' belong?,Religious Devotional,Secular Epics,Foreign traveler accounts,Archaeological sources,Religious Devotional
-Name the devotional work mentioned alongside Devaram and Thiruvasagam?,Nalayira Divyaprabandham,Silappathikaram,Manimekalai,Kalingathu Parani,Nalayira Divyaprabandham
-Who is described as the most famous ruler of ancient India?,Emperor Ashoka,Chandragupta Maurya,Bindusara,Raja Raja Chola,Emperor Ashoka
-Which religion did Ashoka embrace and spread across Asia?,Buddhism,Jainism,Hinduism,Sikhism,Buddhism
-What was the primary focus of Ashoka's life after the Kalinga war?,Dharma and Peace,Conquering the South,Building massive forts,Trade with Rome,Dharma and Peace
-Ashoka was the first ruler in the world to do what after victory?,Give up war,Invent coins,Build a navy,Write an epic,Give up war
-Ashoka was the first ruler to build hospitals for whom?,Animals,Soldiers,Foreigners,Children,Animals
-The 24-spoke wheel in the Indian National Flag is from which pillar?,Sarnath Pillar,Allahabad Pillar,Iron Pillar,Ashoka Pillar Delhi,Sarnath Pillar
-In which state is the Sarnath Pillar located?,Uttar Pradesh,Madhya Pradesh,Bihar,Tamil Nadu,Uttar Pradesh
-Until which century was the history of Ashoka hidden?,19th Century,15th Century,21st Century,10th Century,19th Century
-Which of these was NOT a researcher involved in rediscovering Ashoka?,Robert Bruce Foote,William Jones,James Prinsep,Alexander Cunningham,Robert Bruce Foote
-Who wrote 'The Search for the India's Lost Emperor'?,Charles Allen,James Prinsep,William Jones,Alexander Cunningham,Charles Allen
+History is the study of past events in which order?,Chronological,Alphabetical,Random,Numerical,Chronological
+The word 'History' is derived from which Greek root?,Istoria,Logos,Anthropos,Ethnos,Istoria
+What is the meaning of the Greek word 'Istoria'?,Learning by enquiry,Study of kings,Ancient records,Written evidence,Learning by enquiry
+What does BC or BCE stand for?,Before Common Era,Before Current Event,Basic Christian Era,Before Christ Era,Before Common Era
+In the timeline of BC/BCE how are the years counted?,Backward,Forward,By decades,In multiples of ten,Backward
+What does AD stand for?,Anno Domini,After Death,Ancient Date,After Darkness,Anno Domini
+The study of coins is known as?,Numismatics,Epigraphy,Anthropology,Archaeology,Numismatics
+The study of inscriptions is called?,Epigraphy,Numismatics,Palaeography,Calligraphy,Epigraphy
+Which historical period in Tamil Nadu is largely understood through copper plate inscriptions?,Medieval (Cholas/Pandyas),Sangam Age,Paleolithic,Iron Age,Medieval (Cholas/Pandyas)
+Where can historical inscriptions be found?,Rocks and Temple walls,Only in books,Only on metal pillars,Only on copper plates,Rocks and Temple walls
+Which monument is a famous palace located in Madurai?,Thirumalai Nayakkar,Thanjavur Palace,Vellore Fort,Sanchi Stupa,Thirumalai Nayakkar
+In which state is the Sanchi Stupa located?,Madhya Pradesh,Tamil Nadu,Uttar Pradesh,Karnataka,Madhya Pradesh
+Where is the Tabhang monastery located?,Arunachal Pradesh,Sikkim,Himachal Pradesh,Ladakh,Arunachal Pradesh
+Which fort is a major historical monument located in Tamil Nadu?,Vellore Fort,Red Fort,Golconda Fort,Gwalior Fort,Vellore Fort
+Potteries, toys, tools, and ornaments fall under which source category?,Artefacts,Literary,Religious,Devotional,Artefacts
+Foreign traveler accounts and works by Indian authors are examples of?,Secular Literature,Religious Literature,Archaeological sources,Oral history,Secular Literature
+Which of these is a religious epic?,Ramayana,Silappathikaram,Kalingathu Parani,Folk songs,Ramayana
+Devaram, Nalayira Divyaprabandham and Thiruvasagam are categorized as?,Devotional Literature,Secular Epics,Archaeological sources,Foreign accounts,Devotional Literature
+Who is considered the most famous ruler of ancient India?,Emperor Ashoka,Chandragupta Maurya,Raja Raja Chola,Samudragupta,Emperor Ashoka
+Which religion did Emperor Ashoka embrace and spread across Asia?,Buddhism,Jainism,Hinduism,Sikhism,Buddhism
+After which war did Ashoka give up war and embrace peace?,Kalinga War,Panipat War,Hydaspes War,Tarain War,Kalinga War
+Ashoka was the first ruler in the world to build hospitals for?,Animals,Soldiers,Foreigners,Monks,Animals
+The 24-spoke wheel in the Indian National Flag is taken from which pillar?,Sarnath Pillar,Allahabad Pillar,Iron Pillar,Delhi Pillar,Sarnath Pillar
+In which state is the Sarnath Pillar located?,Uttar Pradesh,Madhya Pradesh,Bihar,Gujarat,Uttar Pradesh
+Until which century was the history of Emperor Ashoka largely hidden?,19th Century,15th Century,18th Century,20th Century,19th Century
+Which researcher was NOT mentioned as key to rediscovering Ashoka?,Robert Bruce Foote,William Jones,James Prinsep,Alexander Cunningham,Robert Bruce Foote
+Who wrote the book 'The Search for the India's Lost Emperor'?,Charles Allen,Sir John Marshall,James Prinsep,Alexander Cunningham,Charles Allen
 Which Rock Edict of Ashoka describes the Kalinga War in detail?,Rock Edict XIII,Rock Edict X,Rock Edict I,Rock Edict VIII,Rock Edict XIII
-Which researcher actually deciphered the Brahmi script?,James Prinsep,William Jones,Alexander Cunningham,Charles Allen,James Prinsep
-What script was used for Ashoka's inscriptions in Central and South India?,Brahmi,Kharosthi,Greek,Aramaic,Brahmi
-Which languages were used in Ashoka's inscriptions in Afghanistan?,Greek and Aramaic,Prakrit and Tamil,Sanskrit,Brahmi and Kharosthi,Greek and Aramaic
-What do the four lions in the Lion Capital represent?,Power Courage Pride and Confidence,Peace Love Kindness and Truth,Strength Wisdom and Wealth,Justice Equality and Liberty,Power Courage Pride and Confidence
+Which script was used for Ashoka's inscriptions in Central and South India?,Brahmi,Kharosthi,Greek,Aramaic,Brahmi
+Which script was used for Ashoka's inscriptions in the North-West?,Kharosthi,Brahmi,Tamil,Pali,Kharosthi
+Where were Ashoka's Greek and Aramaic inscriptions found?,Afghanistan / Frontiers,South India,Sri Lanka,Magadha,Afghanistan / Frontiers
+Who was the first person to actually decipher the Brahmi script?,James Prinsep,William Jones,Alexander Cunningham,Charles Allen,James Prinsep
+In the Lion Capital, what do the four lions represent?,Power Courage Pride Confidence,Peace Love Truth Kindness,Justice Equality Liberty,Wisdom Wealth Strength,Power Courage Pride Confidence
 What marks the period from the use of stone tools to the invention of writing?,Pre-history,Proto-history,Modern history,Medieval history,Pre-history
 How is the period with written records that are not yet deciphered defined?,Proto-history,Pre-history,Ancient history,Literary age,Proto-history
-Why were rock paintings drawn by early humans?,To record activities and as a pastime,To mark boundaries,To communicate with gods,To calculate dates,To record activities and as a pastime
-Which activity is specifically mentioned as being recorded in rock paintings?,Hunting,Farming,Building houses,Sailing,Hunting
-Which was the first animal domesticated by humans?,Dog,Cat,Cow,Horse,Dog
-Why were dogs first domesticated?,For protection and hunting,For milk,For wool,For transportation,For protection and hunting
-Athirampakkam is located in which district of Tamil Nadu?,Thiruvallur,Vellore,Sivagangai,Thoothukudi,Thiruvallur
-Athirampakkam is categorized under which age?,Paleolithic,Mesolithic,Neolithic,Iron Age,Paleolithic
-On which river bank is the site Athirampakkam located?,Kortallayar,Vaigai,Tamirabarani,Cauvery,Kortallayar
-Bhimbetka is located in which district of Madhya Pradesh?,Raisen,Bhopal,Indore,Gwalior,Raisen
-Bhimbetka belongs to which age categories?,Paleolithic and Mesolithic,Neolithic,Iron Age,Bronze Age,Paleolithic and Mesolithic
-Bhimbetka is located near which valley?,Narmada Valley,Ganges Valley,Indus Valley,Cauvery Valley,Narmada Valley
+Early humans drew rock paintings mainly to?,Record activities like hunting,Mark territory,Worship gods,Calculate dates,Record activities like hunting
+Which animal was the first to be domesticated for protection and hunting?,Dog,Horse,Cow,Cat,Dog
+Athirampakkam archaeological site is located in which district?,Thiruvallur (TN),Vellore (TN),Madurai (TN),Sivagangai (TN),Thiruvallur (TN)
+Athirampakkam belongs to which age category?,Paleolithic,Neolithic,Iron Age,Bronze Age,Paleolithic
+On which river bank is Athirampakkam situated?,Kortallayar,Vaigai,Tamirabarani,Cauvery,Kortallayar
+Bhimbetka is located in which district of Madhya Pradesh?,Raisen,Bhopal,Indore,Jabalpur,Raisen
 In which year did Bhimbetka become a UNESCO World Heritage Site?,2003,1995,2010,1980,2003
-Which site in Tamil Nadu is a major Neolithic settlement?,Paiyampalli,Adichanallur,Keeladi,Athirampakkam,Paiyampalli
-Paiyampalli is located in which district?,Vellore,Thiruvallur,Thoothukudi,Sivagangai,Vellore
-Adichanallur is located in which district?,Thoothukudi,Sivagangai,Thiruvallur,Madurai,Thoothukudi
-On which river bank is Adichanallur situated?,Tamirabarani,Vaigai,Palar,Cauvery,Tamirabarani
-Adichanallur is a site belonging to which age?,Iron Age,Paleolithic,Neolithic,Bronze Age,Iron Age
-Keeladi is located in which district?,Sivagangai,Madurai,Theni,Virudhunagar,Sivagangai
-Keeladi belongs to which historical age?,Sangam Age,Iron Age,Neolithic,Paleolithic,Sangam Age
-On which river bank is the site Keeladi located?,Vaigai,Tamirabarani,Ponnaiyar,Palar,Vaigai
+Bhimbetka is associated with which two ages?,Paleolithic & Mesolithic,Neolithic,Iron Age,Bronze Age,Paleolithic & Mesolithic
+Which Neolithic site is located in the Vellore district of Tamil Nadu?,Paiyampalli,Adichanallur,Keeladi,Athirampakkam,Paiyampalli
+Adichanallur is an Iron Age site located in which district?,Thoothukudi,Sivagangai,Madurai,Thiruvallur,Thoothukudi
+On which river bank is the site Adichanallur situated?,Tamirabarani,Vaigai,Palar,Cauvery,Tamirabarani
+Keeladi is a famous Sangam Age site located in which district?,Sivagangai,Madurai,Theni,Virudhunagar,Sivagangai
+On which river bank is Keeladi located?,Vaigai,Tamirabarani,Ponnaiyar,Palar,Vaigai
 Lothal is a Bronze Age site located in which state?,Gujarat,Rajasthan,Haryana,Punjab,Gujarat
-Lothal is situated on a tributary of which river?,Sabarmati (Bhogava),Indus,Narmada,Ganges,Sabarmati (Bhogava)
+Lothal is situated on which tributary of the Sabarmati river?,Bhogava,Indus,Narmada,Luni,Bhogava
 Who is known as the Father of History?,Herodotus,Socrates,Aristotle,Ashoka,Herodotus
-Who is the Father of Indian Pre-history?,Robert Bruce Foote,James Prinsep,Charles Allen,Sir John Marshall,Robert Bruce Foote
-Robert Bruce Foote found a Quartzite Hand-axe at which place in 1863?,Pallavaram,Athirampakkam,Adichanallur,Keeladi,Pallavaram
+Who is the Father of Indian Pre-history?,Robert Bruce Foote,James Prinsep,Alexander Cunningham,Sir John Marshall,Robert Bruce Foote
+Where did Robert Bruce Foote find the first Quartzite Hand-axe in 1863?,Pallavaram,Athirampakkam,Adichanallur,Keeladi,Pallavaram
 Who was the 1st Director General of the Archaeological Survey of India (ASI)?,Alexander Cunningham,Sir John Marshall,Robert Bruce Foote,James Prinsep,Alexander Cunningham
-In which year was the ASI founded?,1861,1857,1924,1947,1861
-Who did Alexander Cunningham use travelogues from to locate sites?,Hiuen Tsang,Marco Polo,Megasthenes,Ibn Battuta,Hiuen Tsang
-Which DG of ASI was responsible for the discovery of IVC in 1924?,Sir John Marshall,Alexander Cunningham,Robert Bruce Foote,Charles Masson,Sir John Marshall
+Who is known as the Father of Indian Archaeology?,Alexander Cunningham,Sir John Marshall,Robert Bruce Foote,Charles Allen,Alexander Cunningham
+In which year was the Archaeological Survey of India (ASI) founded?,1861,1857,1924,1947,1861
+Which Chinese traveler's travelogues were used by Cunningham to locate sites?,Hiuen Tsang,Fa-Hien,I-Tsing,Marco Polo,Hiuen Tsang
+Who was the DG of ASI during the discovery of the Indus Valley Civilisation (1924)?,Sir John Marshall,Alexander Cunningham,Robert Bruce Foote,James Prinsep,Sir John Marshall
 What is the timeline for the Paleolithic Age?,2m BCE - 10k BCE,10k BCE - 6k BCE,6k BCE - 3k BCE,3k BCE - 1.5k BCE,2m BCE - 10k BCE
 What is the timeline for the Mesolithic Age?,10k BCE - 6k BCE,2m BCE - 10k BCE,6k BCE - 3k BCE,3k BCE - 1.5k BCE,10k BCE - 6k BCE
 What is the timeline for the Neolithic Age?,6k BCE - 3k BCE,10k BCE - 6k BCE,3k BCE - 1.5k BCE,1.5k BCE - 600 BCE,6k BCE - 3k BCE
 The Chalcolithic and Bronze Age timeline is defined as?,3k BCE - 1.5k BCE,6k BCE - 3k BCE,1.5k BCE - 600 BCE,300 BCE - 300 CE,3k BCE - 1.5k BCE
 What is the timeline for the Iron Age?,1.5k BCE - 600 BCE,3k BCE - 1.5k BCE,6k BCE - 3k BCE,300 BCE - 300 CE,1.5k BCE - 600 BCE
 What is the timeline for the Sangam Age?,300 BCE - 300 CE,600 BCE - 300 BCE,1.5k BCE - 600 BCE,3k BCE - 1.5k BCE,300 BCE - 300 CE
-Microliths are the characteristic tools of which age?,Mesolithic,Paleolithic,Neolithic,Iron Age,Mesolithic
-Polished stone tools are associated with which age?,Neolithic,Paleolithic,Mesolithic,Chalcolithic,Neolithic
+What tools are characteristic of the Mesolithic Age?,Microliths,Crude Stones,Polished Tools,Iron Tools,Microliths
+Polished stone tools are associated with which age?,Neolithic,Paleolithic,Mesolithic,Iron Age,Neolithic
+Which age is characterized by Megalithic burials?,Iron Age,Paleolithic,Neolithic,Bronze Age,Iron Age
 Bronze is a mixture of which two metals?,Copper and Tin,Copper and Iron,Iron and Tin,Gold and Copper,Copper and Tin
-Fire and Hunting were key events of which age?,Paleolithic,Neolithic,Iron Age,Sangam Age,Paleolithic
-Megalithic burials are a key event of which age?,Iron Age,Paleolithic,Mesolithic,Bronze Age,Iron Age
+The Paleolithic age is mainly known for which two events?,Fire and Hunting,Agriculture and Pottery,Writing and Trade,Iron and War,Fire and Hunting
+Crude stone tools are associated with which site?,Athirampakkam,Paiyampalli,Adichanallur,Keeladi,Athirampakkam
+Which age saw the beginning of Animal Domestication?,Mesolithic,Paleolithic,Neolithic,Iron Age,Mesolithic
+Which age saw the beginning of Agriculture?,Neolithic,Paleolithic,Mesolithic,Bronze Age,Neolithic
+Which metal was used alongside stone in the Chalcolithic age?,Copper,Iron,Gold,Bronze,Copper
+Which age is associated with the birth of Urbanization?,Bronze Age,Iron Age,Neolithic,Paleolithic,Bronze Age
+What was the primary tool used for agriculture in the Iron Age?,Oxen and Plough,Bone Harpoon,Microlith,Crude Stone,Oxen and Plough
+The Sanchi Stupa is an example of what kind of monument?,Stupa,Monastery,Fort,Palace,Stupa
+Tabhang is an example of what kind of monument?,Monastery,Palace,Fort,Stupa,Monastery
+Which Indian Author's works would be considered Secular Literature?,Kautilya/Authors,Vedas,Ramayana,Devaram,Kautilya/Authors
+What is the occupation associated with the Sangam Age?,Kingdoms and Trade,Hunting,Early Smelting,Stone tools,Kingdoms and Trade
+The 'History' period (as opposed to Pre-history) is defined by?,Deciphered scripts,Stone tools,Fossils,No writing,Deciphered scripts
