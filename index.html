@@ -3,66 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TNPSC Prep Dashboard</title>
+    <title>TNPSC Prep Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 font-sans">
+<body class="bg-slate-50 font-sans text-slate-900">
 
-    <nav class="bg-indigo-700 text-white p-4 shadow-lg sticky top-0 z-50">
+    <nav class="bg-indigo-800 text-white p-4 shadow-xl sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold tracking-tight"><i class="fas fa-graduation-cap mr-2"></i>TNPSC Portal</h1>
-            <div id="stats" class="hidden md:block text-sm bg-indigo-800 px-3 py-1 rounded-full">
-                Ready to Practice
-            </div>
+            <h1 class="text-xl font-bold"><i class="fas fa-book-reader mr-2"></i>TNPSC Master Dashboard</h1>
+            <div id="statusIndicator" class="text-xs bg-indigo-900 px-3 py-1 rounded-full border border-indigo-400">System Ready</div>
         </div>
     </nav>
 
-    <main class="container mx-auto p-4 md:p-8">
-        
-        <div class="bg-white rounded-xl shadow-sm p-6 mb-8 border border-gray-100">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">Study Dashboard</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <select id="stdSelect" class="p-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none">
-                    <option value="">Select Standard</option>
-                    <option value="6TH">6th Standard</option>
-                    <option value="7TH">7th Standard</option>
-                </select>
-                <select id="subjectSelect" class="p-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none">
-                    <option value="">Select Subject</option>
-                    <option value="HISTORY">History</option>
-                </select>
-                <select id="unitSelect" class="p-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none">
-                    <option value="">Select Unit (CSV File)</option>
-                    <option value="Unit1.csv">Unit 1: What is History?</option>
-                    <option value="Unit2.csv">Unit 2: Human Evolution</option>
-                    <option value="Unit3.csv">Unit 3: Indus Civilisation</option>
-                </select>
+    <main class="container mx-auto p-4 md:p-8 max-w-5xl">
+        <div class="bg-white rounded-2xl shadow-md p-6 mb-8 border border-slate-200">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-slate-600">Standard</label>
+                    <select id="stdSelect" onchange="updateUnits()" class="w-full p-3 border-2 border-slate-100 rounded-xl focus:border-indigo-500 outline-none transition-all">
+                        <option value="">-- Select --</option>
+                        <option value="6TH">6th Standard</option>
+                        <option value="7TH">7th Standard</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-slate-600">Subject</label>
+                    <select id="subjectSelect" onchange="updateUnits()" class="w-full p-3 border-2 border-slate-100 rounded-xl focus:border-indigo-500 outline-none transition-all">
+                        <option value="">-- Select --</option>
+                        <option value="HISTORY">History</option>
+                        <option value="GEOGRAPHY">Geography</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2 text-slate-600">Unit / Lesson</label>
+                    <select id="unitSelect" class="w-full p-3 border-2 border-slate-100 rounded-xl focus:border-indigo-500 outline-none transition-all">
+                        <option value="">-- Choose Std & Sub first --</option>
+                    </select>
+                </div>
             </div>
             
-            <div class="flex flex-wrap gap-4 mt-6">
-                <button onclick="loadContent('notes')" class="flex-1 md:flex-none bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-semibold transition">
-                    <i class="fas fa-book-open mr-2"></i> Study Notes
+            <div class="flex flex-col md:flex-row gap-4 mt-8">
+                <button onclick="loadAction('notes')" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-4 rounded-xl font-bold shadow-lg shadow-emerald-100 transition-all transform active:scale-95">
+                    <i class="fas fa-eye mr-2"></i> VIEW REVISION NOTES
                 </button>
-                <button onclick="prepareTest()" class="flex-1 md:flex-none bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition">
-                    <i class="fas fa-pen-nib mr-2"></i> Mock Test
+                <button onclick="openTestModal()" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-4 rounded-xl font-bold shadow-lg shadow-indigo-100 transition-all transform active:scale-95">
+                    <i class="fas fa-vial mr-2"></i> START MOCK TEST
                 </button>
             </div>
         </div>
 
-        <div id="displayArea" class="hidden">
-            </div>
-
+        <div id="displayArea" class="space-y-6"></div>
     </main>
 
-    <div id="testModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-xl p-6 max-w-md w-full">
-            <h3 class="text-xl font-bold mb-4 text-gray-800">Test Configuration</h3>
-            <p class="text-gray-600 mb-4 text-sm">How many questions would you like to attend?</p>
-            <input type="number" id="qCount" value="10" class="w-full p-3 border rounded-lg mb-4">
-            <div class="flex gap-2">
-                <button onclick="startTest()" class="flex-1 bg-indigo-600 text-white py-2 rounded-lg font-bold">Start Test</button>
-                <button onclick="toggleModal('testModal', false)" class="flex-1 bg-gray-200 text-gray-800 py-2 rounded-lg font-bold">Cancel</button>
+    <div id="testModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden z-[100] items-center justify-center p-4">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl">
+            <h3 class="text-2xl font-bold mb-2 text-slate-800">Test Settings</h3>
+            <p class="text-slate-500 mb-6">Enter number of questions to attempt:</p>
+            <input type="number" id="qCount" value="20" class="w-full p-4 border-2 border-slate-100 rounded-2xl mb-6 text-center text-2xl font-bold text-indigo-600 focus:border-indigo-500 outline-none">
+            <div class="flex gap-3">
+                <button onclick="loadAction('test')" class="flex-1 bg-indigo-600 text-white py-4 rounded-xl font-bold hover:bg-indigo-700 transition">START</button>
+                <button onclick="closeModal()" class="flex-1 bg-slate-100 text-slate-600 py-4 rounded-xl font-bold hover:bg-slate-200 transition">CANCEL</button>
             </div>
         </div>
     </div>
