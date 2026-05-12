@@ -1,26 +1,26 @@
 Question,Option A,Option B,Option C,Option D,Correct Answer
-C: Which civilisation is one of the four oldest and the largest among ancient civilisations?,Chinese Civilisation,Indus Civilisation,Egyptian Civilisation,Greek Civilisation,Indus Civilisation
-C: Why did river valley civilisations flourish?,Cold climate,Fertile soil and water availability,Mountain protection,Forest resources,Fertile soil and water availability
-T: Which civilisation existed from 3500 to 2000 BCE?,Indus Valley,Chinese,Mesopotamian,Egyptian,Mesopotamian
-T: Which civilisation existed from 3300 to 1900 BCE?,Indus Valley,Egyptian,Chinese,Greek,Indus Valley
-T: Which civilisation existed from 3100 to 1100 BCE?,Mesopotamian,Egyptian,Chinese,Indus Valley,Egyptian
-T: Which civilisation existed from 1700 to 1122 BCE?,Greek,Chinese,Indus Valley,Mesopotamian,Chinese
+Common: Which civilisation is one of the four oldest and the largest among ancient civilisations?,Chinese Civilisation,Indus Civilisation,Egyptian Civilisation,Greek Civilisation,Indus Civilisation
+Common: Why did river valley civilisations flourish?,Cold climate,Fertile soil and water availability,Mountain protection,Forest resources,Fertile soil and water availability
+Timeline: Which civilisation existed from 3500 to 2000 BCE?,Indus Valley,Chinese,Mesopotamian,Egyptian,Mesopotamian
+Timeline: Which civilisation existed from 3300 to 1900 BCE?,Indus Valley,Egyptian,Chinese,Greek,Indus Valley
+Timeline: Which civilisation existed from 3100 to 1100 BCE?,Mesopotamian,Egyptian,Chinese,Indus Valley,Egyptian
+Timeline: Which civilisation existed from 1700 to 1122 BCE?,Greek,Chinese,Indus Valley,Mesopotamian,Chinese
 Archaeology & Discovery: Who is known as the Father of Indian Archaeology?,John Marshall,Alexander Cunningham,Charles Masson,Mortimer Wheeler,Alexander Cunningham
 Archaeology & Discovery: Who first described the Indus Civilisation in 1826?,Sir John Marshall,Charles Masson,Alexander Cunningham,Mortimer Wheeler,Charles Masson
 Harappa Site: How did Charles Masson describe Harappa?,Golden city,Ruined brick castle,Temple town,Fort city,Ruined brick castle
-T: In which year were burnt bricks found during railway construction?,1826,1856,1920,1924,1856
+Timeline: In which year were burnt bricks found during railway construction?,1826,1856,1920,1924,1856
 Harappa Site: Which railway line construction led to the discovery of Harappan bricks?,Delhi to Kolkata,Lahore to Karachi,Mumbai to Chennai,Agra to Jaipur,Lahore to Karachi
-T: In which year did excavations begin at Harappa and Mohenjo-Daro?,1856,1920,1947,1826,1920
+Timeline: In which year did excavations begin at Harappa and Mohenjo-Daro?,1856,1920,1947,1826,1920
 Archaeology & Discovery: Who confirmed Harappa and Mohenjo-Daro belonged to one civilisation?,Charles Masson,Sir John Marshall,James Prinsep,Alexander Cunningham,Sir John Marshall
-T: In which year did Sir John Marshall announce the Indus Civilisation?,1856,1924,1947,1905,1924
-C: What was the approximate area of the Indus Civilisation?,5 lakh sq km,13 lakh sq km,20 lakh sq km,25 lakh sq km,13 lakh sq km
-C: The Indus Civilisation belongs to which age?,Iron Age,Stone Age,Bronze Age,Neolithic Age,Bronze Age
-C: How many major cities were part of the Indus Civilisation?,2,4,6,10,6
-C: Approximately how many villages were part of the Indus Civilisation?,50,100,200,More than 200,More than 200
-C: Which region formed the western boundary of the Indus Civilisation?,Arabian Sea,Makran coast of Baluchistan,Himalayas,Thar Desert,Makran coast of Baluchistan
-C: Which river valley formed the eastern boundary of the Indus Civilisation?,Indus Valley,Ghaggar-Hakra river valley,Ganga Valley,Narmada Valley,Ghaggar-Hakra river valley
-C: Which region formed the north western boundary of the Indus Civilisation?,Nepal,Afghanistan,Tibet,China,Afghanistan
-C: Which modern Indian state formed the southern boundary of the Indus Civilisation?,Tamil Nadu,Maharashtra,Gujarat,Rajasthan,Maharashtra
+Timeline: In which year did Sir John Marshall announce the Indus Civilisation?,1856,1924,1947,1905,1924
+Common: What was the approximate area of the Indus Civilisation?,5 lakh sq km,13 lakh sq km,20 lakh sq km,25 lakh sq km,13 lakh sq km
+Common: The Indus Civilisation belongs to which age?,Iron Age,Stone Age,Bronze Age,Neolithic Age,Bronze Age
+Common: How many major cities were part of the Indus Civilisation?,2,4,6,10,6
+Common: Approximately how many villages were part of the Indus Civilisation?,50,100,200,More than 200,More than 200
+Common: Which region formed the western boundary of the Indus Civilisation?,Arabian Sea,Makran coast of Baluchistan,Himalayas,Thar Desert,Makran coast of Baluchistan
+Common: Which river valley formed the eastern boundary of the Indus Civilisation?,Indus Valley,Ghaggar-Hakra river valley,Ganga Valley,Narmada Valley,Ghaggar-Hakra river valley
+Common: Which region formed the north western boundary of the Indus Civilisation?,Nepal,Afghanistan,Tibet,China,Afghanistan
+Common: Which modern Indian state formed the southern boundary of the Indus Civilisation?,Tamil Nadu,Maharashtra,Gujarat,Rajasthan,Maharashtra
 Harappan Town Planning: What was the higher western part of Harappan cities called?,Lower Town,Citadel,Assembly Hall,Dockyard,Citadel
 Harappan Town Planning: Who mainly lived in the Citadel?,Farmers,Administrators,Traders,Artisans,Administrators
 Mohenjo-Daro: Which important structure was located in the Citadel?,Dockyard,Great Bath,Temple,Pyramid,Great Bath
@@ -76,7 +76,7 @@ Pottery & Toys: What type of pottery was common in Harappan civilisation?,Blue p
 Pottery & Toys: What designs were painted on Harappan pottery?,Only flowers,Animal figures and geometric designs,Human portraits only,Temple symbols only,Animal figures and geometric designs
 Pottery & Toys: Which toys were commonly made by Harappans?,Plastic toys,Terracotta toys,Iron toys,Wooden dolls only,Terracotta toys
 Pottery & Toys: Which toy animals were found in Harappan civilisation?,Lions only,Monkeys and squirrels,Elephants only,Tigers only,Monkeys and squirrels
-C: Which was the earliest form of writing?,Tamil script,Sumerian,Greek,Brahmi,Sumerian
+Common: Which was the earliest form of writing?,Tamil script,Sumerian,Greek,Brahmi,Sumerian
 Mohenjo-Daro: Which Harappan city is a UNESCO World Heritage Site?,Harappa,Mohenjo-Daro,Lothal,Rakhigarhi,Mohenjo-Daro
 TN: What does KVT stand for?,Kashi Vanji Thanjai,Korkai Vanji Thondi,Kanchi Vellore Tiruchi,Kadal Vanam Thurai,Korkai Vanji Thondi
 TN: Which modern Tamil city name is said to resemble ancient Harappan names?,Delhi,Madurai,Kolkata,Jaipur,Madurai
@@ -85,7 +85,7 @@ TN: Which Tamil river name resembles the Afghan river Poruns?,Cauvery,Porunai,Ya
 TN: Many scholars believe the Indus script belonged to which language family?,Aryan,Proto-Dravidian,Greek,Chinese,Proto-Dravidian
 TN: Indus seal signs resemble graffiti marks found in which Tamil Nadu sites?,Mamallapuram,Keeladi,Kanchipuram,Tanjore,Keeladi
 TN: Which Sangam Age site shows urban features similar to Indus cities?,Keeladi,Adichanallur,Pallavaram,Paiyampalli,Keeladi
-T: By which year had the Harappan civilisation started declining?,2500 BCE,1900 BCE,1500 BCE,1000 BCE,1900 BCE
+Timeline: By which year had the Harappan civilisation started declining?,2500 BCE,1900 BCE,1500 BCE,1000 BCE,1900 BCE
 Decline of Civilization: Which natural disaster is believed to be a cause for Harappan decline?,Earthquakes only,Floods,Volcanic eruptions only,Tsunamis only,Floods
 Decline of Civilization: Which environmental issue is believed to have caused Harappan decline?,Deforestation only,Ecological and climatic changes,Only trade decline,Only wars,Ecological and climatic changes
 Seals & Script: What is Steatite?,Hard granite,Soft talc stone,Iron ore,Clay stone,Soft talc stone
@@ -107,7 +107,7 @@ Harappa Site: Which river is associated with Harappa?,Beas,Ravi,Chenab,Jhelum,Ra
 Harappan Town Planning: Which city is known for advanced drainage system in IVC?,Mohenjo-Daro only,All major Harappan cities,Kalibangan only,Lothal only,All major Harappan cities
 Seals & Script: Which material was mainly used for Harappan seals?,Iron,Steatite,Bronze,Copper,Steatite
 Seals & Script: Which animal figure appears most frequently on Harappan seals?,Horse,Unicorn,Tiger,Lion,Unicorn
-C: Which civilization is also called Harappan Civilization?,Chinese Civilization,Indus Valley Civilization,Egyptian Civilization,Mesopotamian Civilization,Indus Valley Civilization
+Common: Which civilization is also called Harappan Civilization?,Chinese Civilization,Indus Valley Civilization,Egyptian Civilization,Mesopotamian Civilization,Indus Valley Civilization
 Agriculture & Economy: What was the main occupation of Harappans?,Fishing only,Agriculture,Mining only,Hunting only,Agriculture
 Trade & Transport: Which was the major means of trade in IVC?,Air transport,Water transport only,Land and maritime trade,Animal racing,Land and maritime trade
 Mohenjo-Daro: Which Harappan site is located in Pakistan?,Mohenjo-Daro,Banawali,Lothal,Dholavira,Mohenjo-Daro
@@ -119,7 +119,7 @@ Metals & Technology: Which metal was widely used in Harappan civilization?,Iron,
 Seals & Script: Which script of the Harappans remains undeciphered?,Brahmi,Indus script,Tamil script,Kharosthi,Indus script
 Religion & Beliefs: What does the absence of temples suggest about Harappan religion?,No religion existed,Religion was simple and nature based,Only kings worshipped,Only foreign gods were worshipped,Religion was simple and nature based
 Harappan Town Planning: What type of houses did Harappans build?,Mud huts only,Brick houses,Tents only,Caves,Brick houses
-C: Which civilization existed during the Bronze Age in India?,Mauryan Civilization,Indus Valley Civilization,Gupta Civilization,Mughal Civilization,Indus Valley Civilization
+Common: Which civilization existed during the Bronze Age in India?,Mauryan Civilization,Indus Valley Civilization,Gupta Civilization,Mughal Civilization,Indus Valley Civilization
 Mohenjo-Daro: Which Harappan site is known as the Mound of the Dead?,Harappa,Mohenjo-Daro,Dholavira,Rakhigarhi,Mohenjo-Daro
 Harappan Town Planning: What was the main source of water in Harappan houses?,Canals,Rivers,Private wells,Ponds,Private wells
 Agriculture & Economy: Which crop was first cultivated by Harappans in the world?,Rice,Wheat,Cotton,Barley,Cotton
