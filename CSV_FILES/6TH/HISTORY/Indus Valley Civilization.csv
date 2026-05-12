@@ -5,13 +5,13 @@ T: Which civilisation existed from 3500 to 2000 BCE?,Indus Valley,Chinese,Mesopo
 T: Which civilisation existed from 3300 to 1900 BCE?,Indus Valley,Egyptian,Chinese,Greek,Indus Valley
 T: Which civilisation existed from 3100 to 1100 BCE?,Mesopotamian,Egyptian,Chinese,Indus Valley,Egyptian
 T: Which civilisation existed from 1700 to 1122 BCE?,Greek,Chinese,Indus Valley,Mesopotamian,Chinese
-AR: Who is known as the Father of Indian Archaeology?,John Marshall,Alexander Cunningham,Charles Masson,Mortimer Wheeler,Alexander Cunningham
-AR: Who first described the Indus Civilisation in 1826?,Sir John Marshall,Charles Masson,Alexander Cunningham,Mortimer Wheeler,Charles Masson
-HS: How did Charles Masson describe Harappa?,Golden city,Ruined brick castle,Temple town,Fort city,Ruined brick castle
+Archaeology & Discovery: Who is known as the Father of Indian Archaeology?,John Marshall,Alexander Cunningham,Charles Masson,Mortimer Wheeler,Alexander Cunningham
+Archaeology & Discovery: Who first described the Indus Civilisation in 1826?,Sir John Marshall,Charles Masson,Alexander Cunningham,Mortimer Wheeler,Charles Masson
+Harappa Site: How did Charles Masson describe Harappa?,Golden city,Ruined brick castle,Temple town,Fort city,Ruined brick castle
 T: In which year were burnt bricks found during railway construction?,1826,1856,1920,1924,1856
-HS: Which railway line construction led to the discovery of Harappan bricks?,Delhi to Kolkata,Lahore to Karachi,Mumbai to Chennai,Agra to Jaipur,Lahore to Karachi
+Harappa Site: Which railway line construction led to the discovery of Harappan bricks?,Delhi to Kolkata,Lahore to Karachi,Mumbai to Chennai,Agra to Jaipur,Lahore to Karachi
 T: In which year did excavations begin at Harappa and Mohenjo-Daro?,1856,1920,1947,1826,1920
-AR: Who confirmed Harappa and Mohenjo-Daro belonged to one civilisation?,Charles Masson,Sir John Marshall,James Prinsep,Alexander Cunningham,Sir John Marshall
+Archaeology & Discovery: Who confirmed Harappa and Mohenjo-Daro belonged to one civilisation?,Charles Masson,Sir John Marshall,James Prinsep,Alexander Cunningham,Sir John Marshall
 T: In which year did Sir John Marshall announce the Indus Civilisation?,1856,1924,1947,1905,1924
 C: What was the approximate area of the Indus Civilisation?,5 lakh sq km,13 lakh sq km,20 lakh sq km,25 lakh sq km,13 lakh sq km
 C: The Indus Civilisation belongs to which age?,Iron Age,Stone Age,Bronze Age,Neolithic Age,Bronze Age
@@ -21,63 +21,63 @@ C: Which region formed the western boundary of the Indus Civilisation?,Arabian S
 C: Which river valley formed the eastern boundary of the Indus Civilisation?,Indus Valley,Ghaggar-Hakra river valley,Ganga Valley,Narmada Valley,Ghaggar-Hakra river valley
 C: Which region formed the north western boundary of the Indus Civilisation?,Nepal,Afghanistan,Tibet,China,Afghanistan
 C: Which modern Indian state formed the southern boundary of the Indus Civilisation?,Tamil Nadu,Maharashtra,Gujarat,Rajasthan,Maharashtra
-HP: What was the higher western part of Harappan cities called?,Lower Town,Citadel,Assembly Hall,Dockyard,Citadel
-HP: Who mainly lived in the Citadel?,Farmers,Administrators,Traders,Artisans,Administrators
-MD: Which important structure was located in the Citadel?,Dockyard,Great Bath,Temple,Pyramid,Great Bath
-HP: Which part of the city was inhabited by common people?,Citadel,Lower Town,Assembly Hall,Granary,Lower Town
-HP: Which direction was the Lower Town usually located?,West,East,North,South,East
-HP: What type of town planning was followed in Harappan cities?,Circular pattern,Grid pattern,Random pattern,Radial pattern,Grid pattern
-HP: How were Harappan roads arranged?,Curved streets,Zig-zag roads,Straight roads cutting at right angles,Narrow lanes only,Straight roads cutting at right angles
-HP: Which bricks were commonly used in Harappan construction?,Mud bricks only,Burnt and sun-dried bricks,Stone blocks only,Marble bricks,Burnt and sun-dried bricks
-HP: Why were burnt bricks preferred?,Cheap cost,Resistance to fire and water,Decoration only,Easy transport,Resistance to fire and water
-HP: What was special about Harappan bricks?,Different sizes,Uniform size,Only circular shape,Only clay material,Uniform size
-HP: How many storeys did Harappan houses usually have?,Only one,One or two,Three or four,Five storeys,One or two
-HP: Which facilities were available inside Harappan houses?,Only bedrooms,Wells toilets and bathrooms,Only kitchens,Only storage rooms,Wells toilets and bathrooms
-HP: What was commonly present at the center of Harappan houses?,Temple,Courtyard,Garden,Tower,Courtyard
-HP: What type of roofs did Harappan houses have?,Sloping roofs,Flat roofs,Domed roofs,Wooden roofs,Flat roofs
-RL: What evidence of religion was absent in Harappan cities?,Seals,Temples,Granaries,Houses,Temples
-HP: How were Harappan drains constructed?,Open drains,Covered drains,No drainage,Stone channels,Covered drains
-HP: Why were holes provided in drains?,Decoration,Drain cleaning,Water storage,Lighting,Drain cleaning
-HP: What did each Harappan house possess for waste disposal?,Canal,Soak pit,River tank,Dam,Soak pit
-MD: Where is the Great Bath located?,Harappa,Mohenjo-Daro,Lothal,Dholavira,Mohenjo-Daro
-MD: What was the Great Bath mainly used for?,Storage of grains,Bathing rituals,Animal shelter,Trade,Bathing rituals
-MD: What made the Great Bath waterproof?,Cement,Bitumen plaster,Wood coating,Granite stones,Bitumen plaster
-MD: On which sides were steps provided in the Great Bath?,East and West,North and South,North and East,South and West,North and South
-HS: Which city is famous for the Great Granary?,Harappa,Kalibangan,Dholavira,Lothal,Harappa
-HS: Which structure in Harappa was used to store grains?,Assembly Hall,Granary,Dockyard,Citadel,Granary
-AG: Which grains were stored in Harappan granaries?,Rice only,Wheat barley millets and sesame,Tea and coffee,Cotton only,Wheat barley millets and sesame
-RG: Where was a mature phase granary discovered?,Lothal,Rakhigarhi,Dholavira,Kalibangan,Rakhigarhi
-RG: In which state is Rakhigarhi located?,Punjab,Gujarat,Haryana,Rajasthan,Haryana
-MD: Which structure at Mohenjo-Daro had 20 pillars?,Granary,Assembly Hall,Dockyard,Temple,Assembly Hall
-TR: With which civilisation did the Indus people have maritime trade?,Roman Civilisation,Mesopotamian Civilisation,Chinese Civilisation,Greek Civilisation,Mesopotamian Civilisation
-TR: Which regions have yielded Indus seals?,India only,Iraq Kuwait and Syria,China and Japan,Egypt and Greece,Iraq Kuwait and Syria
-TR: Which king bought jewellery from Melukha?,Ashoka,Naram-Sin,Hammurabi,Cyrus,Naram-Sin
-TR: What was Melukha?,Egyptian city,Indus region,Chinese kingdom,Greek colony,Indus region
-LT: Where is the dockyard of Lothal located?,Punjab,Gujarat,Rajasthan,Haryana,Gujarat
-LT: Lothal dockyard was built on which river tributary?,Indus,Bhogava,Cauvery,Ganga,Bhogava
-LT: Lothal provides proof of which activity?,Temple worship,Advanced maritime trade,Mountain farming,Horse breeding,Advanced maritime trade
-WM: What system was highly standardized in Harappan civilisation?,Writing only,Weights and measures,Coins only,Agriculture only,Weights and measures
-LT: What was discovered at Lothal showing accurate measurement?,Iron ruler,Ivory scale,Gold rod,Copper chain,Ivory scale
-LT: What is special about the ivory scale found at Lothal?,Longest scale,Smallest recorded division,Made of silver,Used for farming,Smallest recorded division
-TR: Which type of seals were found from Mesopotamia in the Indus region?,Square seals,Cylindrical seals,Round seals,Triangular seals,Cylindrical seals
-AG: Which fabrics were commonly used by Indus people?,Silk and nylon,Cotton and wool,Leather only,Jute only,Cotton and wool
-AG: What suggests yarn spinning in Harappan civilisation?,Stone axes,Clay spindles,Gold ornaments,Bronze swords,Clay spindles
-AG: Which ornaments were popular among both men and women?,Crowns only,Gold silver ivory shell copper terracotta and carnelian ornaments,Only silver rings,Only necklaces,Gold silver ivory shell copper terracotta and carnelian ornaments
-MT: Which was the first metal discovered by Harappans?,Iron,Copper,Gold,Silver,Copper
-AG: Which animals were unknown to the Indus people?,Dogs and cows,Horses,Camels,Goats,Horses
-MT: Which metal was unknown to the Harappans?,Copper,Iron,Gold,Silver,Iron
-MD: Which famous sculpture was found at Mohenjo-Daro?,Nataraja,Dancing Girl,Buddha statue,Ashoka pillar,Dancing Girl
-MD: What material was used to make the Dancing Girl statue?,Stone,Bronze,Iron,Clay,Bronze
-MD: Which sculpture depicts a seated male figure with shawl?,Priest King,Dancing Girl,Yaksha statue,Lion Capital,Priest King
-RL: Which deity is believed to have been worshipped in Harappan civilisation?,Indra,Mother Goddess,Krishna,Buddha,Mother Goddess
-RL: Mother Goddess figurines symbolize what?,War,Fertility,Trade,Justice,Fertility
-AG: Which occupation was common in the Indus Civilisation?,Agriculture and pottery only,Weaving jewellery making carpentry trading and cattle rearing,Hunting only,Temple rituals only,Weaving jewellery making carpentry trading and cattle rearing
-PT: What type of pottery was common in Harappan civilisation?,Blue pottery,Red pottery with black designs,Green pottery,White pottery,Red pottery with black designs
-PT: What designs were painted on Harappan pottery?,Only flowers,Animal figures and geometric designs,Human portraits only,Temple symbols only,Animal figures and geometric designs
-PT: Which toys were commonly made by Harappans?,Plastic toys,Terracotta toys,Iron toys,Wooden dolls only,Terracotta toys
-PT: Which toy animals were found in Harappan civilisation?,Lions only,Monkeys and squirrels,Elephants only,Tigers only,Monkeys and squirrels
+Harappan Town Planning: What was the higher western part of Harappan cities called?,Lower Town,Citadel,Assembly Hall,Dockyard,Citadel
+Harappan Town Planning: Who mainly lived in the Citadel?,Farmers,Administrators,Traders,Artisans,Administrators
+Mohenjo-Daro: Which important structure was located in the Citadel?,Dockyard,Great Bath,Temple,Pyramid,Great Bath
+Harappan Town Planning: Which part of the city was inhabited by common people?,Citadel,Lower Town,Assembly Hall,Granary,Lower Town
+Harappan Town Planning: Which direction was the Lower Town usually located?,West,East,North,South,East
+Harappan Town Planning: What type of town planning was followed in Harappan cities?,Circular pattern,Grid pattern,Random pattern,Radial pattern,Grid pattern
+Harappan Town Planning: How were Harappan roads arranged?,Curved streets,Zig-zag roads,Straight roads cutting at right angles,Narrow lanes only,Straight roads cutting at right angles
+Harappan Town Planning: Which bricks were commonly used in Harappan construction?,Mud bricks only,Burnt and sun-dried bricks,Stone blocks only,Marble bricks,Burnt and sun-dried bricks
+Harappan Town Planning: Why were burnt bricks preferred?,Cheap cost,Resistance to fire and water,Decoration only,Easy transport,Resistance to fire and water
+Harappan Town Planning: What was special about Harappan bricks?,Different sizes,Uniform size,Only circular shape,Only clay material,Uniform size
+Harappan Town Planning: How many storeys did Harappan houses usually have?,Only one,One or two,Three or four,Five storeys,One or two
+Harappan Town Planning: Which facilities were available inside Harappan houses?,Only bedrooms,Wells toilets and bathrooms,Only kitchens,Only storage rooms,Wells toilets and bathrooms
+Harappan Town Planning: What was commonly present at the center of Harappan houses?,Temple,Courtyard,Garden,Tower,Courtyard
+Harappan Town Planning: What type of roofs did Harappan houses have?,Sloping roofs,Flat roofs,Domed roofs,Wooden roofs,Flat roofs
+Religion & Beliefs: What evidence of religion was absent in Harappan cities?,Seals,Temples,Granaries,Houses,Temples
+Harappan Town Planning: How were Harappan drains constructed?,Open drains,Covered drains,No drainage,Stone channels,Covered drains
+Harappan Town Planning: Why were holes provided in drains?,Decoration,Drain cleaning,Water storage,Lighting,Drain cleaning
+Harappan Town Planning: What did each Harappan house possess for waste disposal?,Canal,Soak pit,River tank,Dam,Soak pit
+Mohenjo-Daro: Where is the Great Bath located?,Harappa,Mohenjo-Daro,Lothal,Dholavira,Mohenjo-Daro
+Mohenjo-Daro: What was the Great Bath mainly used for?,Storage of grains,Bathing rituals,Animal shelter,Trade,Bathing rituals
+Mohenjo-Daro: What made the Great Bath waterproof?,Cement,Bitumen plaster,Wood coating,Granite stones,Bitumen plaster
+Mohenjo-Daro: On which sides were steps provided in the Great Bath?,East and West,North and South,North and East,South and West,North and South
+Harappa Site: Which city is famous for the Great Granary?,Harappa,Kalibangan,Dholavira,Lothal,Harappa
+Harappa Site: Which structure in Harappa was used to store grains?,Assembly Hall,Granary,Dockyard,Citadel,Granary
+Agriculture & Economy: Which grains were stored in Harappan granaries?,Rice only,Wheat barley millets and sesame,Tea and coffee,Cotton only,Wheat barley millets and sesame
+Rakhigarhi: Where was a mature phase granary discovered?,Lothal,Rakhigarhi,Dholavira,Kalibangan,Rakhigarhi
+Rakhigarhi: In which state is Rakhigarhi located?,Punjab,Gujarat,Haryana,Rajasthan,Haryana
+Mohenjo-Daro: Which structure at Mohenjo-Daro had 20 pillars?,Granary,Assembly Hall,Dockyard,Temple,Assembly Hall
+Trade & Transport: With which civilisation did the Indus people have maritime trade?,Roman Civilisation,Mesopotamian Civilisation,Chinese Civilisation,Greek Civilisation,Mesopotamian Civilisation
+Trade & Transport: Which regions have yielded Indus seals?,India only,Iraq Kuwait and Syria,China and Japan,Egypt and Greece,Iraq Kuwait and Syria
+Trade & Transport: Which king bought jewellery from Melukha?,Ashoka,Naram-Sin,Hammurabi,Cyrus,Naram-Sin
+Trade & Transport: What was Melukha?,Egyptian city,Indus region,Chinese kingdom,Greek colony,Indus region
+Lothal: Where is the dockyard of Lothal located?,Punjab,Gujarat,Rajasthan,Haryana,Gujarat
+Lothal: Lothal dockyard was built on which river tributary?,Indus,Bhogava,Cauvery,Ganga,Bhogava
+Lothal: Lothal provides proof of which activity?,Temple worship,Advanced maritime trade,Mountain farming,Horse breeding,Advanced maritime trade
+Weights & Measures: What system was highly standardized in Harappan civilisation?,Writing only,Weights and measures,Coins only,Agriculture only,Weights and measures
+Lothal: What was discovered at Lothal showing accurate measurement?,Iron ruler,Ivory scale,Gold rod,Copper chain,Ivory scale
+Lothal: What is special about the ivory scale found at Lothal?,Longest scale,Smallest recorded division,Made of silver,Used for farming,Smallest recorded division
+Trade & Transport: Which type of seals were found from Mesopotamia in the Indus region?,Square seals,Cylindrical seals,Round seals,Triangular seals,Cylindrical seals
+Agriculture & Economy: Which fabrics were commonly used by Indus people?,Silk and nylon,Cotton and wool,Leather only,Jute only,Cotton and wool
+Agriculture & Economy: What suggests yarn spinning in Harappan civilisation?,Stone axes,Clay spindles,Gold ornaments,Bronze swords,Clay spindles
+Agriculture & Economy: Which ornaments were popular among both men and women?,Crowns only,Gold silver ivory shell copper terracotta and carnelian ornaments,Only silver rings,Only necklaces,Gold silver ivory shell copper terracotta and carnelian ornaments
+Metals & Technology: Which was the first metal discovered by Harappans?,Iron,Copper,Gold,Silver,Copper
+Agriculture & Economy: Which animals were unknown to the Indus people?,Dogs and cows,Horses,Camels,Goats,Horses
+Metals & Technology: Which metal was unknown to the Harappans?,Copper,Iron,Gold,Silver,Iron
+Mohenjo-Daro: Which famous sculpture was found at Mohenjo-Daro?,Nataraja,Dancing Girl,Buddha statue,Ashoka pillar,Dancing Girl
+Mohenjo-Daro: What material was used to make the Dancing Girl statue?,Stone,Bronze,Iron,Clay,Bronze
+Mohenjo-Daro: Which sculpture depicts a seated male figure with shawl?,Priest King,Dancing Girl,Yaksha statue,Lion Capital,Priest King
+Religion & Beliefs: Which deity is believed to have been worshipped in Harappan civilisation?,Indra,Mother Goddess,Krishna,Buddha,Mother Goddess
+Religion & Beliefs: Mother Goddess figurines symbolize what?,War,Fertility,Trade,Justice,Fertility
+Agriculture & Economy: Which occupation was common in the Indus Civilisation?,Agriculture and pottery only,Weaving jewellery making carpentry trading and cattle rearing,Hunting only,Temple rituals only,Weaving jewellery making carpentry trading and cattle rearing
+Pottery & Toys: What type of pottery was common in Harappan civilisation?,Blue pottery,Red pottery with black designs,Green pottery,White pottery,Red pottery with black designs
+Pottery & Toys: What designs were painted on Harappan pottery?,Only flowers,Animal figures and geometric designs,Human portraits only,Temple symbols only,Animal figures and geometric designs
+Pottery & Toys: Which toys were commonly made by Harappans?,Plastic toys,Terracotta toys,Iron toys,Wooden dolls only,Terracotta toys
+Pottery & Toys: Which toy animals were found in Harappan civilisation?,Lions only,Monkeys and squirrels,Elephants only,Tigers only,Monkeys and squirrels
 C: Which was the earliest form of writing?,Tamil script,Sumerian,Greek,Brahmi,Sumerian
-MD: Which Harappan city is a UNESCO World Heritage Site?,Harappa,Mohenjo-Daro,Lothal,Rakhigarhi,Mohenjo-Daro
+Mohenjo-Daro: Which Harappan city is a UNESCO World Heritage Site?,Harappa,Mohenjo-Daro,Lothal,Rakhigarhi,Mohenjo-Daro
 TN: What does KVT stand for?,Kashi Vanji Thanjai,Korkai Vanji Thondi,Kanchi Vellore Tiruchi,Kadal Vanam Thurai,Korkai Vanji Thondi
 TN: Which modern Tamil city name is said to resemble ancient Harappan names?,Delhi,Madurai,Kolkata,Jaipur,Madurai
 TN: Which Tamil river name resembles the Afghan river Kawri?,Vaigai,Kaveri,Ganga,Narmada,Kaveri
@@ -86,59 +86,59 @@ TN: Many scholars believe the Indus script belonged to which language family?,Ar
 TN: Indus seal signs resemble graffiti marks found in which Tamil Nadu sites?,Mamallapuram,Keeladi,Kanchipuram,Tanjore,Keeladi
 TN: Which Sangam Age site shows urban features similar to Indus cities?,Keeladi,Adichanallur,Pallavaram,Paiyampalli,Keeladi
 T: By which year had the Harappan civilisation started declining?,2500 BCE,1900 BCE,1500 BCE,1000 BCE,1900 BCE
-DC: Which natural disaster is believed to be a cause for Harappan decline?,Earthquakes only,Floods,Volcanic eruptions only,Tsunamis only,Floods
-DC: Which environmental issue is believed to have caused Harappan decline?,Deforestation only,Ecological and climatic changes,Only trade decline,Only wars,Ecological and climatic changes
-SC: What is Steatite?,Hard granite,Soft talc stone,Iron ore,Clay stone,Soft talc stone
-SC: What was Steatite mainly used for?,Weapons only,Indus seals,Pottery only,Houses only,Indus seals
-SC: What type of script did the Indus people use?,Alphabetical script,Pictograph,Cuneiform only,Brahmi,Pictograph
-LT: Why was the Lothal dockyard specially built?,For decoration,To handle Gulf tides,To store grains,To worship gods,To handle Gulf tides
-LT: Which gulf tides were handled by the Lothal dockyard?,Gulf of Mannar,Gulf of Khambhat,Persian Gulf,Arabian Gulf,Gulf of Khambhat
-MD: What pattern decorated the shawl of the Priest King?,Striped design,Trefoil pattern,Dot pattern,Animal pattern,Trefoil pattern
-KB: Which site is famous for ploughed fields and fire altars?,Dholavira,Lothal,Kalibangan,Rakhigarhi,Kalibangan
-KB: In which state is Kalibangan located?,Punjab,Rajasthan,Haryana,Gujarat,Rajasthan
-BW: Which site yielded a terracotta plough model?,Banawali,Lothal,Dholavira,Harappa,Banawali
-BW: In which state is Banawali located?,Punjab,Haryana,Rajasthan,Gujarat,Haryana
-DV: Which site is famous for water reservoirs and three tier city planning?,Harappa,Dholavira,Kalibangan,Lothal,Dholavira
-DV: In which state is Dholavira located?,Rajasthan,Gujarat,Haryana,Punjab,Gujarat
-RG: Which is the largest IVC site discovered so far?,Harappa,Mohenjo-Daro,Rakhigarhi,Lothal,Rakhigarhi
-LT: Which site is famous for a dockyard and ivory scale?,Kalibangan,Lothal,Dholavira,Banawali,Lothal
-MD: Which river is associated with Mohenjo-Daro?,Ravi,Indus,Ghaggar,Sutlej,Indus
-HS: Which river is associated with Harappa?,Beas,Ravi,Chenab,Jhelum,Ravi
-HP: Which city is known for advanced drainage system in IVC?,Mohenjo-Daro only,All major Harappan cities,Kalibangan only,Lothal only,All major Harappan cities
-SC: Which material was mainly used for Harappan seals?,Iron,Steatite,Bronze,Copper,Steatite
-SC: Which animal figure appears most frequently on Harappan seals?,Horse,Unicorn,Tiger,Lion,Unicorn
+Decline of Civilization: Which natural disaster is believed to be a cause for Harappan decline?,Earthquakes only,Floods,Volcanic eruptions only,Tsunamis only,Floods
+Decline of Civilization: Which environmental issue is believed to have caused Harappan decline?,Deforestation only,Ecological and climatic changes,Only trade decline,Only wars,Ecological and climatic changes
+Seals & Script: What is Steatite?,Hard granite,Soft talc stone,Iron ore,Clay stone,Soft talc stone
+Seals & Script: What was Steatite mainly used for?,Weapons only,Indus seals,Pottery only,Houses only,Indus seals
+Seals & Script: What type of script did the Indus people use?,Alphabetical script,Pictograph,Cuneiform only,Brahmi,Pictograph
+Lothal: Why was the Lothal dockyard specially built?,For decoration,To handle Gulf tides,To store grains,To worship gods,To handle Gulf tides
+Lothal: Which gulf tides were handled by the Lothal dockyard?,Gulf of Mannar,Gulf of Khambhat,Persian Gulf,Arabian Gulf,Gulf of Khambhat
+Mohenjo-Daro: What pattern decorated the shawl of the Priest King?,Striped design,Trefoil pattern,Dot pattern,Animal pattern,Trefoil pattern
+Kalibangan: Which site is famous for ploughed fields and fire altars?,Dholavira,Lothal,Kalibangan,Rakhigarhi,Kalibangan
+Kalibangan: In which state is Kalibangan located?,Punjab,Rajasthan,Haryana,Gujarat,Rajasthan
+Banawali: Which site yielded a terracotta plough model?,Banawali,Lothal,Dholavira,Harappa,Banawali
+Banawali: In which state is Banawali located?,Punjab,Haryana,Rajasthan,Gujarat,Haryana
+Dholavira: Which site is famous for water reservoirs and three tier city planning?,Harappa,Dholavira,Kalibangan,Lothal,Dholavira
+Dholavira: In which state is Dholavira located?,Rajasthan,Gujarat,Haryana,Punjab,Gujarat
+Rakhigarhi: Which is the largest IVC site discovered so far?,Harappa,Mohenjo-Daro,Rakhigarhi,Lothal,Rakhigarhi
+Lothal: Which site is famous for a dockyard and ivory scale?,Kalibangan,Lothal,Dholavira,Banawali,Lothal
+Mohenjo-Daro: Which river is associated with Mohenjo-Daro?,Ravi,Indus,Ghaggar,Sutlej,Indus
+Harappa Site: Which river is associated with Harappa?,Beas,Ravi,Chenab,Jhelum,Ravi
+Harappan Town Planning: Which city is known for advanced drainage system in IVC?,Mohenjo-Daro only,All major Harappan cities,Kalibangan only,Lothal only,All major Harappan cities
+Seals & Script: Which material was mainly used for Harappan seals?,Iron,Steatite,Bronze,Copper,Steatite
+Seals & Script: Which animal figure appears most frequently on Harappan seals?,Horse,Unicorn,Tiger,Lion,Unicorn
 C: Which civilization is also called Harappan Civilization?,Chinese Civilization,Indus Valley Civilization,Egyptian Civilization,Mesopotamian Civilization,Indus Valley Civilization
-AG: What was the main occupation of Harappans?,Fishing only,Agriculture,Mining only,Hunting only,Agriculture
-TR: Which was the major means of trade in IVC?,Air transport,Water transport only,Land and maritime trade,Animal racing,Land and maritime trade
-MD: Which Harappan site is located in Pakistan?,Mohenjo-Daro,Banawali,Lothal,Dholavira,Mohenjo-Daro
-RG: Which Harappan site is located in Haryana?,Rakhigarhi only,Banawali only,Both Rakhigarhi and Banawali,Dholavira,Both Rakhigarhi and Banawali
-DV: Which Harappan site is famous for reservoirs?,Dholavira,Harappa,Mohenjo-Daro,Kalibangan,Dholavira
-HP: Which structure proves Harappans had scientific sanitation knowledge?,Temples,Drainage system,Forts only,Assembly hall,Drainage system
-AG: What kind of economy did the Harappans have?,Industrial economy,Agricultural and trade economy,Hunter economy,Nomadic economy,Agricultural and trade economy
-MT: Which metal was widely used in Harappan civilization?,Iron,Copper,Aluminium,Steel,Copper
-SC: Which script of the Harappans remains undeciphered?,Brahmi,Indus script,Tamil script,Kharosthi,Indus script
-RL: What does the absence of temples suggest about Harappan religion?,No religion existed,Religion was simple and nature based,Only kings worshipped,Only foreign gods were worshipped,Religion was simple and nature based
-HP: What type of houses did Harappans build?,Mud huts only,Brick houses,Tents only,Caves,Brick houses
+Agriculture & Economy: What was the main occupation of Harappans?,Fishing only,Agriculture,Mining only,Hunting only,Agriculture
+Trade & Transport: Which was the major means of trade in IVC?,Air transport,Water transport only,Land and maritime trade,Animal racing,Land and maritime trade
+Mohenjo-Daro: Which Harappan site is located in Pakistan?,Mohenjo-Daro,Banawali,Lothal,Dholavira,Mohenjo-Daro
+Rakhigarhi: Which Harappan site is located in Haryana?,Rakhigarhi only,Banawali only,Both Rakhigarhi and Banawali,Dholavira,Both Rakhigarhi and Banawali
+Dholavira: Which Harappan site is famous for reservoirs?,Dholavira,Harappa,Mohenjo-Daro,Kalibangan,Dholavira
+Harappan Town Planning: Which structure proves Harappans had scientific sanitation knowledge?,Temples,Drainage system,Forts only,Assembly hall,Drainage system
+Agriculture & Economy: What kind of economy did the Harappans have?,Industrial economy,Agricultural and trade economy,Hunter economy,Nomadic economy,Agricultural and trade economy
+Metals & Technology: Which metal was widely used in Harappan civilization?,Iron,Copper,Aluminium,Steel,Copper
+Seals & Script: Which script of the Harappans remains undeciphered?,Brahmi,Indus script,Tamil script,Kharosthi,Indus script
+Religion & Beliefs: What does the absence of temples suggest about Harappan religion?,No religion existed,Religion was simple and nature based,Only kings worshipped,Only foreign gods were worshipped,Religion was simple and nature based
+Harappan Town Planning: What type of houses did Harappans build?,Mud huts only,Brick houses,Tents only,Caves,Brick houses
 C: Which civilization existed during the Bronze Age in India?,Mauryan Civilization,Indus Valley Civilization,Gupta Civilization,Mughal Civilization,Indus Valley Civilization
-MD: Which Harappan site is known as the Mound of the Dead?,Harappa,Mohenjo-Daro,Dholavira,Rakhigarhi,Mohenjo-Daro
-HP: What was the main source of water in Harappan houses?,Canals,Rivers,Private wells,Ponds,Private wells
-AG: Which crop was first cultivated by Harappans in the world?,Rice,Wheat,Cotton,Barley,Cotton
-AG: Which material was used to make beads in Harappan civilisation?,Iron,Carnelian,Steel,Granite,Carnelian
-AR: Who discovered Harappa in 1921?,Rakhaldas Banerji,Daya Ram Sahni,John Marshall,Mortimer Wheeler,Daya Ram Sahni
-AR: Who discovered Mohenjo-Daro in 1922?,Daya Ram Sahni,Rakhaldas Banerji,Alexander Cunningham,James Prinsep,Rakhaldas Banerji
-LT: Which Harappan site is known for bead factories?,Harappa,Lothal,Kalibangan,Dholavira,Lothal
-SC: Which was the standard script direction of the Indus script?,Left to right,Right to left,Top to bottom,Bottom to top,Right to left
-RL: Which tree was worshipped by Harappans according to seals?,Neem,Banyan,Pipal,Mango,Pipal
-CD: Which Harappan site is called the Manchester of the Indus Civilization?,Harappa,Mohenjo-Daro,Lothal,Chanhudaro,Chanhudaro
-DV: Which Harappan site had a stadium-like structure?,Dholavira,Lothal,Harappa,Kalibangan,Dholavira
-DV: Which site is known for the signboard with Indus script?,Harappa,Dholavira,Kalibangan,Banawali,Dholavira
-LT: Which site is known as the first tide-controlled dockyard in the world?,Harappa,Lothal,Dholavira,Kalibangan,Lothal
-MD: Priest King statue was found at,Mohenjo-Daro,Harappa,Lothal,Kalibangan,Mohenjo-Daro
-HP: Indus bricks followed standard ratio,1:2:4,1:3:5,2:2:2,1:1:1,1:2:4
-HP: What does the absence of large royal palaces suggest about Harappan rule?,Strong monarchy,Possible decentralized administration,Military dictatorship,Foreign rule,Possible decentralized administration
-AG: Indus people used which for fishing?,Hooks and nets,Swords,Spears only,Bows,Hooks and nets
-TR: Indus people had knowledge of,Navigation,Astronomy only,Medicine only,Writing,Navigation
-SC: Indus script has how many symbols?,400-600 approx,50-100,1000+,200-300,400-600 approx
-KB: Which Harappan site is located on the banks of River Ghaggar?,Kalibangan,Mohenjo-Daro,Lothal,Dholavira,Kalibangan
-HP: Which direction did most Harappan houses avoid opening towards?,Main roads,Rivers,Courtyards,Wells,Main roads
-RP: Which Harappan site is known for rice cultivation evidence?,Lothal,Harappa,Rangpur,Kalibangan,Rangpur
+Mohenjo-Daro: Which Harappan site is known as the Mound of the Dead?,Harappa,Mohenjo-Daro,Dholavira,Rakhigarhi,Mohenjo-Daro
+Harappan Town Planning: What was the main source of water in Harappan houses?,Canals,Rivers,Private wells,Ponds,Private wells
+Agriculture & Economy: Which crop was first cultivated by Harappans in the world?,Rice,Wheat,Cotton,Barley,Cotton
+Agriculture & Economy: Which material was used to make beads in Harappan civilisation?,Iron,Carnelian,Steel,Granite,Carnelian
+Archaeology & Discovery: Who discovered Harappa in 1921?,Rakhaldas Banerji,Daya Ram Sahni,John Marshall,Mortimer Wheeler,Daya Ram Sahni
+Archaeology & Discovery: Who discovered Mohenjo-Daro in 1922?,Daya Ram Sahni,Rakhaldas Banerji,Alexander Cunningham,James Prinsep,Rakhaldas Banerji
+Lothal: Which Harappan site is known for bead factories?,Harappa,Lothal,Kalibangan,Dholavira,Lothal
+Seals & Script: Which was the standard script direction of the Indus script?,Left to right,Right to left,Top to bottom,Bottom to top,Right to left
+Religion & Beliefs: Which tree was worshipped by Harappans according to seals?,Neem,Banyan,Pipal,Mango,Pipal
+Chanhudaro: Which Harappan site is called the Manchester of the Indus Civilization?,Harappa,Mohenjo-Daro,Lothal,Chanhudaro,Chanhudaro
+Dholavira: Which Harappan site had a stadium-like structure?,Dholavira,Lothal,Harappa,Kalibangan,Dholavira
+Dholavira: Which site is known for the signboard with Indus script?,Harappa,Dholavira,Kalibangan,Banawali,Dholavira
+Lothal: Which site is known as the first tide-controlled dockyard in the world?,Harappa,Lothal,Dholavira,Kalibangan,Lothal
+Mohenjo-Daro: Priest King statue was found at,Mohenjo-Daro,Harappa,Lothal,Kalibangan,Mohenjo-Daro
+Harappan Town Planning: Indus bricks followed standard ratio,1:2:4,1:3:5,2:2:2,1:1:1,1:2:4
+Harappan Town Planning: What does the absence of large royal palaces suggest about Harappan rule?,Strong monarchy,Possible decentralized administration,Military dictatorship,Foreign rule,Possible decentralized administration
+Agriculture & Economy: Indus people used which for fishing?,Hooks and nets,Swords,Spears only,Bows,Hooks and nets
+Trade & Transport: Indus people had knowledge of,Navigation,Astronomy only,Medicine only,Writing,Navigation
+Seals & Script: Indus script has how many symbols?,400-600 approx,50-100,1000+,200-300,400-600 approx
+Kalibangan: Which Harappan site is located on the banks of River Ghaggar?,Kalibangan,Mohenjo-Daro,Lothal,Dholavira,Kalibangan
+Harappan Town Planning: Which direction did most Harappan houses avoid opening towards?,Main roads,Rivers,Courtyards,Wells,Main roads
+Rangpur: Which Harappan site is known for rice cultivation evidence?,Lothal,Harappa,Rangpur,Kalibangan,Rangpur
