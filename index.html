@@ -10,10 +10,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
         body { font-family: 'Roboto', sans-serif; background-color: #f8f9fa; color: #202124; }
         h1, h2, h3, .google-font { font-family: 'Google Sans', sans-serif; }
-        .google-card { background: white; border: 1px solid #dadce0; border-radius: 8px; transition: transform 0.2s; }
-        .nav-shadow { box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 2px 6px 2px rgba(60,64,67,.15); }
-        select { appearance: none; background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em; }
-        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1rem; }
+        .google-card { background: white; border: 1px solid #dadce0; border-radius: 12px; overflow: hidden; transition: all 0.2s; }
+        .google-card:hover { border-color: #4285f4; box-shadow: 0 1px 6px rgba(32,33,36,0.1); }
+        select { appearance: none; background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235f6368' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em; }
+        .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.5rem; }
     </style>
 </head>
 <body>
@@ -29,42 +29,44 @@
     </nav>
 
     <main class="container mx-auto p-4 md:p-8 max-w-6xl">
-        <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8 shadow-sm">
+        <!-- Dashboard Selectors -->
+        <div class="bg-white rounded-2xl border border-gray-200 p-6 mb-8 shadow-sm">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
-                    <label class="text-xs font-medium text-gray-500 mb-2 block">Standard</label>
-                    <select id="stdSelect" onchange="updateSubjects()" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 transition-all"></select>
+                    <label class="text-xs font-bold text-gray-500 mb-2 block ml-1 uppercase">Standard</label>
+                    <select id="stdSelect" onchange="updateSubjects()" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none"></select>
                 </div>
                 <div>
-                    <label class="text-xs font-medium text-gray-500 mb-2 block">Subject</label>
-                    <select id="subjectSelect" onchange="updateUnits()" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 transition-all">
+                    <label class="text-xs font-bold text-gray-500 mb-2 block ml-1 uppercase">Subject</label>
+                    <select id="subjectSelect" onchange="updateUnits()" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none">
                         <option>-- Select Subject --</option>
                     </select>
                 </div>
                 <div>
-                    <label class="text-xs font-medium text-gray-500 mb-2 block">Unit</label>
-                    <select id="unitSelect" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 transition-all">
+                    <label class="text-xs font-bold text-gray-500 mb-2 block ml-1 uppercase">Unit</label>
+                    <select id="unitSelect" class="w-full pl-4 pr-10 py-3 bg-gray-50 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none">
                         <option>-- Select Unit --</option>
                     </select>
                 </div>
             </div>
             <div class="flex flex-col md:flex-row gap-4 mt-8">
-                <button onclick="loadAction('notes')" class="flex-1 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg font-medium text-sm hover:bg-gray-50 transition-all">STUDY NOTES</button>
-                <button onclick="openConfig()" class="flex-1 bg-blue-600 text-white py-3 rounded-lg font-medium text-sm hover:bg-blue-700 shadow-md transition-all">TAKE ASSESSMENT</button>
+                <button onclick="loadAction('notes')" class="flex-1 bg-white border border-gray-300 text-gray-700 py-3.5 rounded-xl font-bold text-sm hover:bg-gray-50 transition-all uppercase tracking-wide">Study Notes</button>
+                <button onclick="openConfig()" class="flex-1 bg-blue-600 text-white py-3.5 rounded-xl font-bold text-sm hover:bg-blue-700 shadow-lg shadow-blue-100 transition-all uppercase tracking-wide">Take Assessment</button>
             </div>
         </div>
 
         <div id="displayArea"></div>
     </main>
 
+    <!-- Modal for Settings -->
     <div id="configModal" class="fixed inset-0 bg-black/40 backdrop-blur-sm hidden z-[60] items-center justify-center p-4">
-        <div class="bg-white rounded-2xl p-8 max-w-sm w-full shadow-2xl">
-            <h3 class="text-lg font-bold google-font mb-2">Assessment Settings</h3>
-            <p class="text-gray-500 text-xs mb-6">Total available: <span id="maxQ" class="font-bold text-blue-600">0</span> questions.</p>
-            <input type="number" id="qLimit" value="20" class="w-full p-4 bg-gray-100 rounded-xl text-center text-3xl font-bold text-blue-600 outline-none border-2 border-transparent focus:border-blue-500 mb-6">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl">
+            <h3 class="text-lg font-bold google-font mb-2">Test Configuration</h3>
+            <p class="text-gray-500 text-xs mb-6 uppercase tracking-widest">Available Questions: <span id="maxQ" class="text-blue-600 font-black">0</span></p>
+            <input type="number" id="qLimit" value="20" class="w-full p-4 bg-gray-100 rounded-2xl text-center text-4xl font-bold text-blue-600 outline-none border-2 border-transparent focus:border-blue-500 mb-6">
             <div class="flex gap-3">
-                <button onclick="loadAction('test')" class="flex-[2] bg-blue-600 text-white py-3 rounded-lg font-bold text-xs uppercase tracking-widest">Start Test</button>
-                <button onclick="closeConfig()" class="flex-1 bg-gray-100 text-gray-500 py-3 rounded-lg font-bold text-xs uppercase tracking-widest">Cancel</button>
+                <button onclick="loadAction('test')" class="flex-[2] bg-blue-600 text-white py-4 rounded-xl font-bold text-xs uppercase tracking-widest">Start Test</button>
+                <button onclick="closeConfig()" class="flex-1 bg-gray-100 text-gray-500 py-4 rounded-xl font-bold text-xs uppercase tracking-widest">Cancel</button>
             </div>
         </div>
     </div>
@@ -78,7 +80,6 @@
         let sessionQuestions = [];
         let userAnswers = [];
         let wrongQuestions = [];
-        let searchTimer;
 
         async function fetchGH(path) {
             const res = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${REPO_NAME}/contents/${path}`);
@@ -119,7 +120,7 @@
             const std = document.getElementById('stdSelect').value;
             const sub = document.getElementById('subjectSelect').value;
             const file = document.getElementById('unitSelect').value;
-            if(!file) return alert("Please select all fields!");
+            if(!file) return alert("Please select all filters!");
 
             const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/main/${BASE_PATH}/${std}/${sub}/${encodeURIComponent(file)}`;
             
@@ -132,72 +133,78 @@
                     return row.map(cell => cell.replace(/"/g, '').trim());
                 }).filter(r => r.length >= 6);
 
-                if(mode === 'notes') {
-                    renderNotes();
-                } else {
-                    closeConfig();
-                    startTest(masterData);
-                }
-            } catch (e) { alert("Error fetching data."); }
+                mode === 'notes' ? renderNotes() : (closeConfig(), startTest(masterData));
+            } catch (e) { alert("Error loading data."); }
         }
 
-        // Optimized real-time search with debounce
-        function handleSearch(val) {
-            clearTimeout(searchTimer);
-            searchTimer = setTimeout(() => {
-                renderNotes(val);
-            }, 300); 
+        function triggerSearch() {
+            const val = document.getElementById('searchInput').value;
+            renderNotes(val);
         }
 
         function renderNotes(filter = "") {
             const area = document.getElementById('displayArea');
             const searchTerms = filter.toLowerCase();
             
-            // Search logic matches against Question (q[0]) OR Correct Answer (q[5])
             const filteredData = masterData.filter(q => 
                 q[0].toLowerCase().includes(searchTerms) || 
                 q[5].toLowerCase().includes(searchTerms)
             );
             
-            area.innerHTML = `
-                <div class="mb-6 bg-white p-6 rounded-xl border border-gray-200 shadow-sm sticky top-[72px] z-40">
+            let html = `
+                <div class="mb-8 bg-white p-6 rounded-2xl border border-gray-200 shadow-sm sticky top-[72px] z-40">
                     <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
                         <div>
-                            <h2 class="text-lg font-bold google-font text-gray-800">Study Navigator</h2>
-                            <p class="text-sm text-gray-500">Showing <span class="text-blue-600 font-bold">${filteredData.length}</span> of ${masterData.length} entries</p>
+                            <h2 class="text-xl font-bold google-font text-gray-800">Study Guide</h2>
+                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mt-1">Found <span class="text-blue-600">${filteredData.length}</span> / ${masterData.length} Questions</p>
                         </div>
-                        <div class="relative max-w-sm w-full">
-                            <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
-                            <input type="text" id="searchInput" placeholder="Search questions or answers..." 
-                                   oninput="handleSearch(this.value)" 
-                                   class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none transition-all">
+                        <div class="relative max-w-sm w-full flex gap-2">
+                            <div class="relative flex-1">
+                                <i class="fas fa-keyboard absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+                                <input type="text" id="searchInput" placeholder="Press enter to search..." 
+                                       onkeydown="if(event.key === 'Enter') triggerSearch()"
+                                       class="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none transition-all">
+                            </div>
+                            <button onclick="triggerSearch()" class="bg-blue-600 text-white px-5 rounded-xl hover:bg-blue-700 transition-all">
+                                <i class="fas fa-search"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="notesGrid">
-                    ${filteredData.map((q, i) => `
-                        <div class="google-card p-5 hover:shadow-md">
-                            <p class="text-[10px] font-bold text-gray-400 uppercase mb-2">Item #${i+1}</p>
-                            <p class="text-[14px] font-medium text-gray-800 mb-4 leading-relaxed">${q[0]}</p>
-                            <div class="bg-blue-50 border border-blue-100 text-blue-700 p-3 rounded-lg text-xs font-bold">
-                                <span class="opacity-60 mr-1 uppercase text-[9px]">Answer:</span> ${q[5]}
-                            </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">`;
+
+            filteredData.forEach((q, i) => {
+                const options = [q[1], q[2], q[3], q[4]];
+                html += `
+                    <div class="google-card p-6 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="bg-gray-100 text-gray-500 text-[10px] font-black px-2 py-1 rounded uppercase">Q#${i+1}</span>
                         </div>
-                    `).join('')}
-                </div>
-            `;
-            // Keep focus on input if we are filtering
-            if(filter) document.getElementById('searchInput').focus();
+                        <p class="text-[15px] font-medium text-gray-800 mb-6 leading-relaxed">${q[0]}</p>
+                        <div class="space-y-2 mb-4">
+                            ${options.map(opt => {
+                                const isCorrect = opt === q[5];
+                                return `
+                                    <div class="p-3 rounded-lg text-sm border ${isCorrect ? 'bg-green-50 border-green-200 text-green-700 font-bold' : 'bg-gray-50 border-gray-100 text-gray-500'}">
+                                        <i class="fas ${isCorrect ? 'fa-check-circle' : 'fa-circle'} mr-2 opacity-50"></i> ${opt}
+                                    </div>`;
+                            }).join('')}
+                        </div>
+                    </div>`;
+            });
+            html += `</div>`;
+            area.innerHTML = html;
+            if(filter) document.getElementById('searchInput').value = filter;
         }
 
         function startTest(sourceData, isReattempt = false) {
             const limitVal = parseInt(document.getElementById('qLimit').value);
             const limit = isReattempt ? sourceData.length : (limitVal || sourceData.length);
             
-            const shuffled = sourceData.sort(() => Math.random() - 0.5).slice(0, limit);
+            const shuffled = [...sourceData].sort(() => Math.random() - 0.5).slice(0, limit);
             sessionQuestions = shuffled.map(q => {
-                let options = [ {txt: q[1]}, {txt: q[2]}, {txt: q[3]}, {txt: q[4]} ].sort(() => Math.random() - 0.5);
-                return { question: q[0], options: options, correct: q[5], raw: q };
+                let options = [q[1], q[2], q[3], q[4]].sort(() => Math.random() - 0.5);
+                return { question: q[0], options, correct: q[5], raw: q };
             });
 
             userAnswers = new Array(sessionQuestions.length).fill(null);
@@ -207,27 +214,33 @@
         function renderTestUI(isReattempt) {
             const area = document.getElementById('displayArea');
             area.innerHTML = `
-                <div class="flex items-center justify-between mb-6">
-                    <h2 class="text-xl font-bold google-font">${isReattempt ? 'Focus Mode: Re-attempt' : 'Live Assessment'}</h2>
-                    <span class="text-xs font-bold px-3 py-1 bg-blue-100 text-blue-700 rounded-full">${sessionQuestions.length} Questions</span>
+                <div class="flex items-center justify-between mb-8 bg-blue-600 p-6 rounded-2xl text-white shadow-lg">
+                    <div>
+                        <h2 class="text-xl font-bold google-font">${isReattempt ? 'Correction Mode' : 'Examination'}</h2>
+                        <p class="text-[10px] font-bold uppercase tracking-[0.2em] opacity-70">Focus on the task</p>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-2xl font-black">${sessionQuestions.length}</span>
+                        <p class="text-[10px] font-bold uppercase opacity-70">Questions</p>
+                    </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     ${sessionQuestions.map((q, qIdx) => `
-                        <div class="google-card p-6 flex flex-col">
-                            <p class="text-[11px] font-bold text-gray-400 mb-3 uppercase tracking-widest">Question ${qIdx+1}</p>
-                            <p class="font-medium text-[15px] leading-relaxed mb-6 text-gray-800">${q.question}</p>
-                            <div class="space-y-2 mt-auto">
+                        <div class="google-card p-8 flex flex-col">
+                            <p class="text-[10px] font-black text-blue-500 mb-4 uppercase tracking-widest">Question ${qIdx+1}</p>
+                            <p class="font-medium text-[16px] leading-relaxed mb-8 text-gray-800">${q.question}</p>
+                            <div class="space-y-3 mt-auto">
                                 ${q.options.map(opt => `
-                                    <label class="flex items-center p-3 border border-gray-100 rounded-lg cursor-pointer hover:bg-blue-50 transition-all">
-                                        <input type="radio" name="q${qIdx}" value="${opt.txt}" onchange="userAnswers[${qIdx}] = this.value" class="w-4 h-4 accent-blue-600">
-                                        <span class="ml-3 text-sm text-gray-600">${opt.txt}</span>
+                                    <label class="flex items-center p-4 border border-gray-200 rounded-2xl cursor-pointer hover:bg-blue-50 hover:border-blue-200 transition-all group">
+                                        <input type="radio" name="q${qIdx}" value="${opt}" onchange="userAnswers[${qIdx}] = this.value" class="w-5 h-5 accent-blue-600">
+                                        <span class="ml-4 text-[14px] text-gray-600 group-hover:text-blue-700">${opt}</span>
                                     </label>`).join('')}
                             </div>
                         </div>
                     `).join('')}
                 </div>
-                <div class="max-w-xs mx-auto mt-12 pb-20">
-                    <button onclick="submitTest()" class="w-full bg-gray-900 text-white py-4 rounded-xl font-bold text-xs uppercase tracking-widest shadow-xl">Complete & View Results</button>
+                <div class="max-w-xs mx-auto mt-12 pb-24">
+                    <button onclick="submitTest()" class="w-full bg-gray-900 text-white py-5 rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl hover:bg-black transition-all">Submit Assessment</button>
                 </div>
             `;
             window.scrollTo(0,0);
@@ -243,31 +256,34 @@
 
             const area = document.getElementById('displayArea');
             area.innerHTML = `
-                <div class="bg-white border border-gray-200 p-10 rounded-2xl text-center mb-8 shadow-sm">
-                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Performance Summary</p>
-                    <h2 class="text-7xl font-bold text-gray-800 google-font mb-6">${score} <span class="text-2xl text-gray-300">/ ${sessionQuestions.length}</span></h2>
-                    <div class="flex flex-wrap gap-3 justify-center">
-                        <button onclick="window.location.reload()" class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg font-bold text-xs uppercase">Reset</button>
+                <div class="bg-white border border-gray-200 p-12 rounded-3xl text-center mb-10 shadow-sm">
+                    <p class="text-xs font-black uppercase tracking-[0.3em] text-gray-400 mb-4">Assessment Grade</p>
+                    <h2 class="text-8xl font-black text-gray-800 google-font mb-8">${score} <span class="text-3xl text-gray-300">/ ${sessionQuestions.length}</span></h2>
+                    <div class="flex flex-wrap gap-4 justify-center">
+                        <button onclick="window.location.reload()" class="bg-gray-100 text-gray-700 px-8 py-4 rounded-xl font-bold text-xs uppercase tracking-widest">Home</button>
                         ${wrongQuestions.length > 0 ? `
-                        <button onclick="startTest(wrongQuestions, true)" class="bg-red-600 text-white px-6 py-3 rounded-lg font-bold text-xs uppercase shadow-lg shadow-red-200 animate-pulse">Re-attempt ${wrongQuestions.length} Wrong</button>
-                        ` : '<div class="text-green-600 font-bold p-3">Perfect Score! 🎉</div>'}
+                        <button onclick="startTest(wrongQuestions, true)" class="bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-xs uppercase shadow-xl shadow-red-100 tracking-widest">Fix ${wrongQuestions.length} Mistakes</button>
+                        ` : '<div class="text-green-600 font-black p-4 text-sm bg-green-50 rounded-xl">EXCELLENT! NO MISTAKES 🎉</div>'}
                     </div>
                 </div>
                 <div class="results-grid">
                     ${sessionQuestions.map((q, i) => {
                         const isCorrect = userAnswers[i] === q.correct;
                         return `
-                        <div class="google-card p-5 border-l-4 ${isCorrect ? 'border-l-green-500' : 'border-l-red-500'}">
-                            <p class="text-[13px] font-medium text-gray-800 mb-4">${i+1}. ${q.question}</p>
-                            <div class="space-y-2 text-xs font-bold">
-                                <div class="${isCorrect ? 'text-green-600' : 'text-red-600'}">
-                                    <i class="fas ${isCorrect ? 'fa-check' : 'fa-times'} mr-1"></i> YOU: ${userAnswers[i] || "Skipped"}
+                        <div class="google-card p-6 border-l-8 ${isCorrect ? 'border-l-green-500' : 'border-l-red-500'}">
+                            <p class="text-[14px] font-bold text-gray-800 mb-4">${i+1}. ${q.question}</p>
+                            <div class="space-y-3">
+                                <div class="text-xs font-black uppercase tracking-wider ${isCorrect ? 'text-green-600' : 'text-red-500'}">
+                                    <i class="fas ${isCorrect ? 'fa-check-circle' : 'fa-times-circle'} mr-2"></i> Selection: ${userAnswers[i] || "NONE"}
                                 </div>
-                                ${!isCorrect ? `<div class="text-blue-600"><i class="fas fa-info-circle mr-1"></i> CORRECT: ${q.correct}</div>` : ''}
+                                ${!isCorrect ? `
+                                <div class="text-xs font-black uppercase tracking-wider text-blue-600 bg-blue-50 p-3 rounded-lg">
+                                    <i class="fas fa-info-circle mr-2"></i> Correct: ${q.correct}
+                                </div>` : ''}
                             </div>
                         </div>`;
                     }).join('')}
-                </div><div class="h-20"></div>`;
+                </div><div class="h-24"></div>`;
             window.scrollTo(0,0);
         }
 
